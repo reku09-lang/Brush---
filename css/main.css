@@ -1,0 +1,179 @@
+body {
+    background-color: #fbfbfb;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #bebebe;
+}
+
+header {
+    display: flex;
+    font-size: 16px;
+    margin: 30px;
+}
+
+nav {
+    margin: 0 0 1px auto;
+}
+
+header nav a {
+    margin: 0 0 0 30px;
+    font-size: 16px;
+}
+
+button {
+    margin: 30px auto;
+    border: 1px solid #202020;
+    background-color: #f6f6f6;
+    width: 200px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: #ececec;
+}
+
+.top {
+    text-align: center;
+    height: 800px;
+}
+
+.topP {
+    width: 96vw;
+    height: 800px;
+    object-fit: cover;
+    text-align: center;  
+    filter: brightness(1.1);
+}
+
+.news{
+    background-color: #eeeeee;
+    margin: 0 20px;
+    margin-top: 0;
+    padding: 100px 100px;
+}
+
+.news h2 {
+    font-size: 30px;
+}
+
+.project {
+    width: 800px;
+    margin: 200px auto;
+}
+
+.project h2 {
+    font-size: 40px;
+    width: 800px;
+    border-bottom: 1.5px solid #eeeeee;
+    padding-bottom: 60px;
+
+}
+
+.island {
+    display: flex;
+    width: 80vw;
+    margin: 200px auto;
+}
+
+.island h1 {
+    font-size: 50px;
+}
+
+.island a {
+    margin-left: 0;
+}
+
+#is {
+    width: 800px;
+    text-align: center;
+}
+
+.island img {
+    width: 500px;
+    border: 1px solid #eeeeee;
+    text-align: right;  
+}
+
+.brush {
+    display: flex;
+    width: 80vw;
+    margin: 200px auto;
+}
+
+.brush h1 {
+    font-size: 50px;
+}
+
+.brush a {
+    margin-left: 0;
+}
+
+#brush {
+    width: 800px;
+    text-align: center;
+}
+
+.brush img {
+    width: 500px;
+    border: 1px solid #eeeeee;
+    text-align: right;
+}
+
+.support {
+    text-align: center;
+}
+
+.support h2 {
+    font-size: 30px;
+}
+
+.contact {
+    width: 80vw;
+    background-color: #eeeeee;
+    margin: 200px auto;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.bottom {
+    background-color: #e0e0e0;
+}
+
+footer {
+    font-size: 16px;
+    display: flex;
+    padding: 100px 0 0 0;
+}
+
+footer a {
+    margin: 0 100px;
+}
+
+footer nav {
+    margin: 0;
+}
+
+footer nav a {
+    margin: 0 20px;
+}
+
+.end {
+    font-size: 12px;
+    color: #7c7c7c;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
